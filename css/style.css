@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    background-color: #111215;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*------------------------- navbar start ----------------------*/
+.navbar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    padding: 18px 0;
+    background-color: #111215;
+    /* background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); */
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.contant {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contant .logo img {
+    width: 200px;
+}
+
+.contant ul {
+    margin-top: 5px;
+}
+
+.contant ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.contant ul li a {
+    font-weight: 600;
+    color: white;
+    line-height: 22.5px;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.contant ul li a:hover {
+    color: #F2526A;
+}
+
+.contant .active {
+    color: white;
+    padding: 6px 20px;
+    border-radius: 5px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(240, 44, 230) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transition: all 0.4s ease;
+}
+
+.contant .active:hover {
+    color: #1B1A17;
+    background: #F2526A;
+}
+
+/*------------------------- navbar end ----------------------*/
+
+
+/*------------------------- header container top start ----------*/
+.header-contant-top {
+    margin-bottom: 50px;
+    background-color: #111215;
+}
+
+.header-contant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-text {
+    margin-top: 180px;
+}
+
+.amazing-color {
+    color: #F2526A;
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 65px;
+}
+
+.header-text h5 {
+    color: gray;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28.8px;
+    margin-top: 20px;
+    letter-spacing: 0.2px;
+}
+
+.apple-button a {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(240, 44, 230) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transition: all 0.4s;
+}
+
+.apple-button a:hover {
+    background: #F2526A;
+}
+
+.apple-button {
+    margin-top: 50px;
+}
+
+.apple-button i {
+    font-size: 15px;
+}
+
+.google-button {
+    margin-left: 10px;
+}
+
+.apple-button a {
+    color: white;
+}
+
+.google-play-color {
+    background-color: #F2526A;
+}
+
+.header-img img {
+    width: 460px;
+    margin-top: 100px;
+    margin-left: 110px;
+}
+
+/*------------------------- header container top start ----------*/
+.top-hight {
+    background-color: #1E1F21;
+    height: 70px;
+    width: 100%;
+}
+
+.global-Partners {
+    background-color: #1E1F21;
+}
+
+.global-Partners-text h1 {
+    text-align: center;
+    color: #FEFEFE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.global-Partners-text h4 {
+    font-size: 16px;
+    color: #ece6e6;
+    letter-spacing: 0.2px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 70px;
+    opacity: 90%;
+}
+
+.global-Partners-img {}
+
+.global-img img {
+    width: 150px;
+    opacity: 40%;
+    align-items: center;
+}
+
+.global-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 100px;
+    margin-top: 50px;
+}
+
+/* img animation start */
+
+.global-img img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.global-img img:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 80%;
+}
+
+/* img animation end */
+
+
+
+/*------------------------- header container top end --------------*/
